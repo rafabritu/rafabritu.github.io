@@ -10,43 +10,57 @@
 </head>
 <body>
     <!-- CABEÇALHO -->
-    <header>
-        <a href="#">
-            <img src='assets/img/logo.png' alt='Logo' title='Logo'>
+    <header class="cabeçalho">
+        <a href="#" class="logo">
+            <img src='assets/img/logo.png' alt='Logo' title='Logo' class="logo">
         </a>
+        <h3>Programador Web 2020</h3>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a class="menu" href="#home">HOME</a></li>
             </ul>
         </nav>
     </header>
     <!-- FIM CABEÇALHO -->
     <main>
         <header>
-            <h1>Curso Programdor Web</h1>
+            <h1 id=titulopagina>Curso Programador Web 2020</h1>
         </header>
-        <section>
+        <section id=main>
             <header>
-                <h2>1 - INFRAESTRUTURA DE DESENVOLVIMENTO</h2>
+                <h2 id=titulomodulo1>1 - INFRAESTRUTURA DE DESENVOLVIMENTO</h2>
             </header>
-            <section>
-                <header><h3>Instalação do PHP 7.4</h3></header>
-                <p>Boa noite alunos ! Vamos para o 1º conteúdo do curso. Vamos aprender a instalar as bibliotecas do php 7.4.
-                
-                O vídeo 1.1 demonstra a instalação no linux, e o vídeo 1.2 demonstra a instalação no windows. Além disso, coloquei o
-                tutorial de instalação no linux, para auxiliar no cumprimento dos passos, para quem for utilizar o linux durante o
-                curso.
-                
-                Esta atividade não vale nota, mas é fundamental que todos tentem fazer em casa, afinal esse curso é focado na prática.
-                
-                Tendo dúvidas, não deixem de postar, eu e os demais tutores, estaremos respondendo
-                </p>
-                <div>
-                    <video src="">vvv</video>
-                    <h4>Título</h4>
-                    <p>Descrição</p>
-                    <p>Tempo</p>
-                </div>
+            <section class="conteudo_1">
+                <header>
+                    <h2>
+                        Instalação do PHP 7.4
+                    </h2>
+                    <p>Boa noite alunos ! Vamos para o 1º conteúdo do curso. Vamos aprender a instalar as bibliotecas do php 7.4.
+                                
+                        O vídeo 1.1 demonstra a instalação no linux, e o vídeo 1.2 demonstra a instalação no windows. Além disso, coloquei o
+                        tutorial de instalação no linux, para auxiliar no cumprimento dos passos, para quem for utilizar o linux durante o
+                        curso.
+                                
+                        Esta atividade não vale nota, mas é fundamental que todos tentem fazer em casa, afinal esse curso é focado na
+                        prática.
+                                
+                        Tendo dúvidas, não deixem de postar, eu e os demais tutores, estaremos respondendo
+                    </p>
+                </header>
+                <section class="aulas">
+                    <div class="aulas">
+                        <video controls src="assets/video/1.1 Instalação do PHP 7.4 no ubuntu 20.04.mp4"></video>
+                        <h4>Instalação do PHP 7.4 no Ubuntu 20.04</h4>
+                        <p>Como instalar PHP 7.7 no Linux</p>
+                        <p class=duration>Duração: 15:49</p>
+                    </div>
+                    <div class="aulas">
+                        <video controls src="assets/video/1.2 Instalação do PHP 7.4 no Windows 10.mp4"></video>
+                        <h4>Instalação do PHP 7.4 no Windows 10</h4>
+                        <p>Descrição</p>
+                        <p class="duration">Duração: 12:31</p>
+                    </div>
+                </section>
             </section>
         </section>
     </main>
