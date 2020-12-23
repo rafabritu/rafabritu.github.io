@@ -69,7 +69,7 @@
 /* -----------------------------------------------------------------
     - Principal
 ----------------------------------------------------------------- */
-#main {
+#modulo1 {
     max-width: 1080px;
     width: 100%;
     margin: 0 auto;
@@ -96,10 +96,12 @@
 
 section.aulas {
     display: flex;
+    flex-wrap: wrap;
 }
 
 div.aulas {
     padding-left: 20px;
+    margin: 20px;
 }
 div.aulas video {
     width: 360px;
@@ -109,10 +111,10 @@ div.aulas iframe {
     width: 360px;
 }
 div.aulas h4 {
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 div.aulas p {
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 
 .conteudo_1 header h2 {
@@ -130,4 +132,34 @@ div.aulas p {
 .duration {
     font-weight: 300;
     font-style: italic;
+}
+
+.Extras {
+    padding: 20px;
+}
+
+.Extras h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.codigo {
+    padding: 15px;
+    border-radius: 11px;
+    background-color: #defdfb;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.rodape {
+    display: flex;
+    height: 80px;
+    background-color: #245287;
+}
+
+.rodape h6 {
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    margin-left: 20px;
 }
