@@ -104,6 +104,10 @@ div.aulas {
 div.aulas video {
     width: 360px;
 }
+div.aulas iframe {
+    height: 202px;
+    width: 360px;
+}
 div.aulas h4 {
     margin: 10px 0;
 }
