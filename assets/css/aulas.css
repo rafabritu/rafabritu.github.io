@@ -1,0 +1,76 @@
+#modulo1 {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#titulomodulo1 {
+    text-align: center;
+    font-size: 3em;
+    color: #143050;
+    margin: 100px 0;
+}
+
+
+/* ---------------AULAS---------------- */
+
+section.aulas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.aulas {
+    padding-left: 20px;
+    margin: 20px;
+}
+
+div.aulas video {
+    width: 360px;
+}
+
+div.aulas iframe {
+    height: 202px;
+    width: 360px;
+}
+
+div.aulas h4 {
+    margin: 10px 0px;
+}
+
+div.aulas p {
+    margin: 10px 0px;
+}
+
+.conteudo_1 header h2 {
+    font-size: 1.9em;
+    padding: 20px;
+}
+
+.conteudo_1 header p {
+    font-weight: 300;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.duration {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.Extras {
+    padding: 20px;
+}
+
+.Extras h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.codigo {
+    padding: 15px;
+    border-radius: 11px;
+    background-color: #defdfb;
+    font-weight: 400;
+    font-size: 1em;
+}
